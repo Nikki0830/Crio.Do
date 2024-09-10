@@ -6,7 +6,7 @@ let arr = [1,2,4,56,78]//an array
 let max = arr[0]//initializing array[0] value with max
 
 for(let i = 0; i < arr.length; i++){//iterate the loop from 0 to arra.length
-    if(arr[i] > max){//checking if the any of the value is bigger than max or not
+    if(arr[i] > max){//checking if the any of the value is bigger than max or not  (minimum is also same just put < here instead of >)
         max = arr[i]//string the suitable value in max
     }
 }
