@@ -16,3 +16,10 @@ console.log(max)//finally printing the max value
 //SPACE COMPLEXITY ====> 0(1) as we are changing the values in a same array or not taking any additional space
 
 //Note (Here we cannot optimize the code because each element in the array need to be iterate once to find the maximum value)
+
+///with reduce()
+// const arr = [1, 5, 3, 7, 2];
+// const max = arr.reduce((acc, currentValue) => {
+//     return currentValue > acc ? currentValue : acc;
+// }, arr[0]);
+// console.log(max); // Output: 7
