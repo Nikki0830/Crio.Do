@@ -117,6 +117,8 @@ localPeak2(nLength,arrVal) , "Optimazation"
 // Peaks are printed one by one as they are found.
 // No array is created; the output is immediate, but once printed, you can't further manipulate the values unless you store them separately.
 
-
+// When to Use Each:
+// Array Output ([4, 3, 6]) is useful when you need to return a collection of peaks and might need to further process or manipulate them.
+// Separate Print Output (4 3 6) is useful when you just need to display results and don't need to store them for future use, optimizing space.
 
 
